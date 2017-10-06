@@ -1,17 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Application title</title>
+        <title>Select filter</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="main.css" rel="stylesheet">
     </head>
     <body>
         <div class="container">
-            <h1 class="title">Application name</h1>
-            <p class="description">application description</p>
+            <h1 class="title">Select filter</h1>
+            <p class="description">Filter content block using radio button select</p>
             <div class="app-box">
+                <input type="radio" id="all" name="category" checked> Show all<br>
+                <input type="radio" id="css" name="category"> CSS<br>
+                <input type="radio" id="html" name="category"> HTML<br>
+                <input type="radio" id="js" name="category"> JS<br>
                 
+                <div class="block-box">
+                    <!--CSS-->
+                    <div class="css">
+                        <div class="content">
+                            <h3>Borders</h3>
+                            <p>
+                                The CSS border properties allow you to
+                                specify the style, width, and color of
+                                an element's border
+                            </p>
+                        </div>
+                    </div>
+                    <div class="css">
+                        <div class="content">
+                            <h3>Margins</h3>
+                            <p>
+                                The CSS margin properties are used to
+                                generate space around elements, the
+                                properties set the size of the white space
+                                outside the border. 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="css">
+                        <div class="content">
+                            <h3>Padding</h3>
+                            <p>
+                                The CSS padding properties are used to
+                                generate space around conten; clears 
+                                an area around the content (inside
+                                the border) of an element.
+                            </p>
+                        </div>
+                    </div>
+                    <!--HTML-->
+                    <div class="html">
+                        <div class="content">
+                            <h3>Headings</h3>
+                            <p>
+                                Headings are defined with the <b>h1</b> to <b>h6</b> tags.
+                                <b>h1</b> defines the most important heading. <b>h6</b> 
+                                defines the least important heading.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="html">
+                        <div class="content">
+                            <h3>Paragraph</h3>
+                            <p>
+                                The HTML <b>p</b> element defines a paragraph
+                            </p>
+                        </div>
+                    </div>
+                    <div class="html">
+                        <div class="content">
+                            <h3>Input</h3>
+                            <p>
+                                The <b>input</b> element is the most important form element.
+                                The <b>input</b> element can be displayed in several ways, 
+                                depending on the type attribute.
+                            </p>
+                        </div>
+                    </div>
+                    <!--JS-->
+                    <div class="js">
+                        <div class="content">
+                            <h3>Variables</h3>
+                            <p>
+                                JavaScript Variables JavaScript variables are
+                                containers for storing data values.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="js">
+                        <div class="content">
+                            <h3>Functions</h3>
+                            <p>
+                                A JavaScript function is a block of code designed
+                                to perform a particular task. A function is executed when
+                                "something" invokes it (calls it).
+                            </p>
+                        </div>
+                    </div>
+                    <div class="js">
+                        <div class="content">
+                            <h3>Objects</h3>
+                            <p>
+                                Objects are variables too. But objects can contain many values.
+                                The values are written as name:value pairs (name and value separated by a colon).
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     <script src="main.js"></script>

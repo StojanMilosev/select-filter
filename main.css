@@ -23,3 +23,33 @@
     margin: 3px;
     color: #555555;
 }
+.block-box{
+    margin: 20px 0;
+}
+.block-box > div{
+    padding: 10px;
+    display: inline-block;
+}
+.content{
+    border: solid 1px #555;
+    border-radius: 3px;
+    padding: 10px;
+    
+    width: 230px;
+    height: 230px;
+    float: left;
+    text-align: center;
+}
+.content p{
+   text-align: left;
+   margin-top: 5px;
+}
+.content:hover{
+    border:solid 2px #333;
+    width: 228px;
+    height: 228px;
+    border-radius: 0;
+    cursor: pointer;
+}
+input{
+}

@@ -1,5 +1,4 @@
-### application name
+### Select filter
+Filter content using select radio buttons
 
-application description
-
-### [Live demo](application url)
+### [Live demo](https://stojanmilosev.github.io/select-filter/)
